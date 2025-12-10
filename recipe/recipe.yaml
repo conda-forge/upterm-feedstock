@@ -10,9 +10,7 @@ source:
   sha256: fa26eb1ca4e8b34e04dd65c9ca3556aa001494ddd4ea6476df684b74befc307e
 
 build:
-  number: 0
-  skip:
-    - win
+  number: 1
 
 requirements:
   build:
@@ -25,10 +23,6 @@ tests:
       - upterm --help
       - uptermd version
       - uptermd --help
-  - package_contents:
-      bin:
-        - upterm
-        - uptermd
 
 about:
   homepage: https://github.com/owenthereal/upterm
