@@ -187,6 +187,3 @@ Feedstock Maintainers
 
 * [@claydugo](https://github.com/claydugo/)
 
-
-<!-- dummy commit to enable rerendering -->
-
