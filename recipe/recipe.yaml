@@ -1,5 +1,5 @@
 context:
-  version: "0.26.0"
+  version: "0.29.0"
 
 package:
   name: upterm
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/owenthereal/upterm/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 2eee37b11631e7ecf2a51c94d7a5051fcdf5beebf0fd69f50c9272fb0252de55
+  sha256: 18f4e2aa9c0f0f97c08c2b0d18b708ca818b7ce0866d73aeea911586b2f86fb1
 
 build:
   number: 0
